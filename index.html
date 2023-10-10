@@ -1,33 +1,47 @@
-<!DOCTYPE <html>
+<!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="utf-8" />
   <title>Grime Engineering - Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./index.css" />
+  <script>
+    setTimeout(() => {
+      const main = document.querySelector('main')
+      main.style.opacity = 1
+      main.style.filter = "blur(0px)";
+    }, 1000);
+  </script>
 </head>
 
 <body>
-  <header>
-    <img src="./images/kmgrime.png" />
-    <h1>@kmgrime</h1>
-  </header>
-  <ul>
-    <li>
-      <a href="https://www.grime.dev/">
-        Official Website
-      </a>
-    </li>
-    <li>
-      <a href="">
-      Twitter
-      </a>
-    </li>
-    <li>
-      <a href="">
-      GitHub
-      </a>
-    </li>
-  </ul>
+  <main>
+    <header>
+      <img src="./images/kmgrime.png" />
+      <h1>@kmgrime</h1>
+    </header>
+    <ul>
+      <li>
+        <a href="https://www.grime.dev/">
+          <img src="./images/homepage.svg" alt="Homepage" width="20" />
+          Official Website
+        </a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com/kmgrime">
+          <img src="./images/twitter.svg" alt="Homepage" width="20" />
+          Twitter
+        </a>
+      </li>
+      <li>
+        <a href="https://www.github.com/kmgrime">
+          <img src="./images/github.svg" alt="Homepage" width="20" />
+          GitHub
+        </a>
+      </li>
+    </ul>
+  </main>
 </body>
 
 </html>
